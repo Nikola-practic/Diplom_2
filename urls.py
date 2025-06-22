@@ -7,9 +7,6 @@ class Urls:
     # Авторизация пользователя
     LOGIN = '/api/auth/login'
 
-    # Получение данных о пользователе
-    #CHANGE_USER_DATA = '/api/auth/user'
-
     # Удаление пользователя
     DELETE_USER = '/api/auth/user'
 

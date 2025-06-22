@@ -1,6 +1,7 @@
 import requests
 from faker import Faker
 
+
 fake = Faker()
 fakeRU = Faker(locale='ru_RU')
 
@@ -15,4 +16,3 @@ def create_random_password():
 def create_random_username():
     username = fakeRU.first_name()
     return username
-
